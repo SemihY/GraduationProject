@@ -1,0 +1,3 @@
+package graduationfinal;
+
+@license(LGPL);

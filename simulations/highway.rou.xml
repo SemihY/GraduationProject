@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<routes>
+<vType id="vtype0" accel="1.5" decel="3.1" sigma="0" length="8" minGap="1" maxSpeed="14.00" />
+<vType id="vtype1" accel="1.5" decel="3.1" sigma="0" length="8" minGap="1" maxSpeed="13.00" />
+<vType id="vtype2" accel="1.5" decel="3.1" sigma="0" length="8" minGap="1" maxSpeed="13.00" />
+<vType id="vtype3" accel="1.5" decel="3.1" sigma="0" length="8" minGap="1" maxSpeed="14.00" />
+<vType id="vtype4" accel="1.5" decel="3.1" sigma="0" length="8" minGap="1" maxSpeed="15.00" />
+<vType id="vtype5" accel="1.5" decel="3.1" sigma="0" length="8" minGap="1" maxSpeed="13.00" />
+
+<route id="route0" edges="12345678"/>
+
+<vehicle id ="vehicle0.0" type="vtype0" route="route0" depart="0" departSpeed="max" departLane="best" departPos="700" />
+<vehicle id ="vehicle0.1" type="vtype1" route="route0" depart="0" departSpeed="max" departLane="best" departPos="301" />
+<vehicle id ="vehicle0.2" type="vtype2" route="route0" depart="0" departSpeed="max" departLane="best" departPos="300" />
+<vehicle id ="vehicle0.3" type="vtype3" route="route0" depart="0" departSpeed="max" departLane="best" departPos="600" />
+
+<vehicle id ="vehicle0.5" type="vtype2" route="route0" depart="0" departSpeed="max" departLane="best" departPos="250" />
+</routes>
